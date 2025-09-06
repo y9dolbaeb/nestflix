@@ -5,7 +5,7 @@ import React from "react";
 function Header() {
   return (
     <header className="bg-black/75 backdrop-blur-sm flex justify-between items-center w-full px-6 bg-black fixed  top-0 z-10">
-      <a href="./">
+      <a href="/">
         <img src="/logo.png" alt="Logo" className="w-36" />
       </a>
 
@@ -17,7 +17,7 @@ function Header() {
             </Link>
           </li>
           <li>
-            <Link href="/" className="hover:text-gray-400">
+            <Link href="/movielist" className="hover:text-gray-400">
               Кино сан
             </Link>
           </li>
